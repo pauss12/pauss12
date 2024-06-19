@@ -6,8 +6,11 @@
 
 [![pmendez-'s 42 stats](https://badge.mediaplus.ma/greenbinary/pmendez-?1337Badge=off&UM6P=off)](https://github.com/oakoudad/badge42)
 
-## Github Stats
+## Top Langs
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pauss12)](https://github.com/pauss12)
+
+## GitHub Stats
+[![pauss12's GitHub stats](https://github-readme-stats.vercel.app/api?username=pauss12&show_icons=true&count_private=true)](https://github.com/pauss12)
 
 <h2>Programming Languages</h2>
 
