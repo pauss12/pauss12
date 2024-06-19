@@ -1,22 +1,8 @@
-## Hi there 👋
+## Hola, soy Paula Méndez  👋
 
-<!--
-**pauss12/pauss12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p> I am currently studying software engineering with a specialization in cybersecurity in U-tad, and combining it with being a student on campus 42 Telefónica. </p>
 
-Here are some ideas to get you started:
+[![pmendez-'s 42 stats](https://badge.mediaplus.ma/greenbinary/pmendez-?1337Badge=off&UM6P=off)](https://github.com/oakoudad/badge42)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-# pmendez-
-
-[![pmendez-'s 42](https://badge.mediaplus.ma/greenbinary/pmendez-?UM6P=off)](https://github.com/oakoudad/badge42)
-
-## Para ver mi progreso en el CURSUS
+## Github Stats
+[![Paula's GitHub stats](https://github-readme-stats.vercel.app/api?username=pauss12)](https://github.com/pauss12)
