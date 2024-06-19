@@ -1,4 +1,4 @@
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.gifer.com/NvL.gif" alt="" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto; height: 400px; object-fit: cover;" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXdraDZmNGRmemI3Z2h0NW1wamswdmN6cTY3cmE2OTh3a3k0OWZzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4JyNNqiVzBMbDOVO/giphy.webp" alt="" /></p>
 
 ## Hola, soy Paula Méndez  👋
 
