@@ -28,7 +28,7 @@
 
 <h2>Contacta conmigo! </h2>
 
-<li><img src="https://w7.pngwing.com/pngs/340/980/png-transparent-google-mail-logo-gmail-email-computer-icons-gmail-angle-text-triangle.png" alt="" width="40" height="40"/>  Email: <a href='mailto:paulamendezsv@gmail.com' target="_blank">paulamendezsv@gmail.com</a></li>
+<li> Email: <a href='mailto:paulamendezsv@gmail.com' target="_blank">paulamendezsv@gmail.com</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/paula-m%C3%A9ndez-148051244/">Paula Méndez</a></li>
 <li> GitHub: <a href="https://github.com/pauss12" > pauss12 </a></li>
 
