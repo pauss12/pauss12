@@ -5,7 +5,7 @@
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/paula-méndez-148051244/)
 [![Codewars](https://img.shields.io/badge/-codewars-red?style=flat&logo=codewars&logoColor=white)](https://www.codewars.com/users/pauss12)
 
-<p> I am currently studying software engineering with a specialization in cybersecurity in U-tad, and combining it with being a student on campus 42 Telefónica. </p>
+<p> I am a Software Engineer with a specialization in Cybersecurity, and combining it with being a student on campus 42 Telefónica. </p>
 
 [![pmendez-'s 42 stats](https://badge.mediaplus.ma/greenbinary/pmendez-?1337Badge=off&UM6P=off)](https://github.com/oakoudad/badge42)
 
