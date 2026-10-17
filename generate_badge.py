@@ -13,6 +13,7 @@ import datetime
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from xml.sax.saxutils import escape
@@ -29,26 +30,43 @@ TEXT, MUTED, ACCENT, BAR_BG = "#e6edf3", "#8b949e", "#00e88f", "#21262d"
 # API de 42
 # ----------------------------------------------------------------------------
 
+# Sin User-Agent propio, urllib se presenta como "Python-urllib/3.x" y la
+# protección anti-bots de la intra responde 403 antes de mirar las credenciales.
+HEADERS = {"User-Agent": "pmendez-42-badge/1.0 (+https://github.com/pauss12)",
+           "Accept": "application/json"}
+
+
+def fetch(url, data=None, headers=None):
+    """Hace la petición y, si falla, muestra lo que respondió el servidor."""
+    req = urllib.request.Request(url, data=data, headers=dict(HEADERS, **(headers or {})))
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read(), r.headers.get_content_type()
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:500]
+        sys.exit("Error %d en %s\n%s" % (e.code, url.split("?")[0], body))
+
+
 def get_token(uid, secret):
     data = urllib.parse.urlencode({
-        "grant_type": "client_credentials", "client_id": uid, "client_secret": secret,
+        "grant_type": "client_credentials", "client_id": uid.strip(),
+        "client_secret": secret.strip(),
     }).encode()
-    with urllib.request.urlopen(API + "/oauth/token", data=data, timeout=30) as r:
-        return json.load(r)["access_token"]
+    return json.loads(fetch(API + "/oauth/token", data=data)[0])["access_token"]
 
 
 def get_user(login, token):
-    req = urllib.request.Request(API + "/v2/users/" + urllib.parse.quote(login),
-                                 headers={"Authorization": "Bearer " + token})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    body, _ = fetch(API + "/v2/users/" + urllib.parse.quote(login),
+                    headers={"Authorization": "Bearer " + token})
+    return json.loads(body)
 
 
 def photo_data_uri(url):
     if not url:
         return ""
     try:
-        with urllib.request.urlopen(url, timeout=30) as r:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as r:
             mime = r.headers.get_content_type() or "image/jpeg"
             return "data:%s;base64,%s" % (mime, base64.b64encode(r.read()).decode())
     except Exception:  # noqa: BLE001  (sin foto, el badge se genera igual)
