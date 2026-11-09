@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135">
+<style>
+  text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; }
+  .title { font-size: 17px; font-weight: 700; fill: #00e88f; }
+  .label { font-size: 13.5px; fill: #8b949e; }
+  .value { font-size: 13.5px; font-weight: 700; }
+  .desc { font-size: 12.5px; fill: #8b949e; }
+  .small { font-size: 12px; fill: #8b949e; }
+</style>
+<rect x="0.5" y="0.5" width="399" height="134" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="25" y="38" class="title">Inception</text>
+<text x="25" y="64" class="desc">Infraestructura con Docker Compose: NGINX con TLS,</text>
+<text x="25" y="82" class="desc">WordPress y MariaDB en contenedores propios.</text>
+<circle cx="31" cy="111" r="6" fill="#89e051"/>
+<text x="44" y="115" class="small">Shell</text>
+<text x="375" y="115" class="small" text-anchor="end">★ 0</text>
+</svg>

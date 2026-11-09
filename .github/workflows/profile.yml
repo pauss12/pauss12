@@ -1,0 +1,34 @@
+name: Perfil (estadísticas y últimos proyectos)
+
+on:
+  schedule:
+    - cron: "0 7 * * *"     # una vez al día
+  workflow_dispatch:         # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate cards and latest projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Opcional: token personal (solo lectura) para contar también los repos privados.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          python3 generate_stats.py
+          python3 update_projects.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update profile stats"
+          git pull --rebase
+          git push
