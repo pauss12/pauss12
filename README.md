@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00e88f&height=200&section=header&text=Paula%20M%C3%A9ndez&fontSize=56&fontColor=e6edf3&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Cybersecurity%20%C2%B7%2042%20Telef%C3%B3nica&descSize=18&descAlignY=58" alt="Paula Méndez" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2dd4bf&height=200&section=header&text=Paula%20M%C3%A9ndez&fontSize=56&fontColor=e6edf3&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Cybersecurity%20%C2%B7%2042%20Telef%C3%B3nica&descSize=18&descAlignY=58" alt="Paula Méndez" width="100%" />
 
 <a href="https://github.com/pauss12">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=2DD4BF&center=true&vCenter=true&width=600&lines=Ingeniera+de+Software+%C2%B7+Ciberseguridad;Estudiante+en+42+Telef%C3%B3nica+Madrid;C+%C2%B7+C%2B%2B+%C2%B7+Docker+%C2%B7+Redes+%C2%B7+Linux;Siempre+construyendo+algo+nuevo+%F0%9F%9A%80" alt="Typing SVG" />
@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/paula-m%C3%A9ndez-148051244/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:paulamendezsv@gmail.com"><img src="https://img.shields.io/badge/Email-00e88f?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email" /></a>
+  <a href="mailto:paulamendezsv@gmail.com"><img src="https://img.shields.io/badge/Email-2dd4bf?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email" /></a>
   <a href="https://www.codewars.com/users/pauss12"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" /></a>
   <img src="https://komarev.com/ghpvc/?username=pauss12&style=for-the-badge&color=0d1117&label=VISITAS" alt="Visitas" />
 </p>
@@ -133,7 +133,7 @@ Soy **Ingeniera de Software con especialización en Ciberseguridad** y estudiant
 <img src="./assets/stats.svg" alt="GitHub stats" width="49%" />
 <img src="./assets/langs.svg" alt="Lenguajes más usados" width="49%" />
 
-<img src="https://streak-stats.demolab.com?user=pauss12&background=0d1117&border=30363d&ring=00e88f&fire=00e88f&currStreakLabel=00e88f&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&stroke=30363d" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=pauss12&background=0d1117&border=30363d&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&stroke=30363d" alt="GitHub streak" />
 
 </div>
 
@@ -146,8 +146,8 @@ Soy **Ingeniera de Software con especialización en Ciberseguridad** y estudiant
 ¿Tienes un proyecto, una oferta o simplemente quieres hablar de código o ciberseguridad?
 
 <a href="https://www.linkedin.com/in/paula-m%C3%A9ndez-148051244/"><img src="https://img.shields.io/badge/Conecta_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:paulamendezsv@gmail.com"><img src="https://img.shields.io/badge/paulamendezsv@gmail.com-00e88f?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email" /></a>
+<a href="mailto:paulamendezsv@gmail.com"><img src="https://img.shields.io/badge/paulamendezsv@gmail.com-2dd4bf?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e88f,100:0d1117&height=110&section=footer" alt="" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2dd4bf,100:0d1117&height=110&section=footer" alt="" width="100%" />
 
 </div>

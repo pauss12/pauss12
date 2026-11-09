@@ -30,7 +30,7 @@ IGNORE_LANGS = {"Makefile"}
 IGNORE_LANG_REPOS = {USER, "Paradigmas_Programacion"}
 
 BG, BORDER = "#0d1117", "#30363d"
-TEXT, MUTED, ACCENT, BAR_BG = "#e6edf3", "#8b949e", "#00e88f", "#21262d"
+TEXT, MUTED, ACCENT, BAR_BG = "#e6edf3", "#8b949e", "#2dd4bf", "#21262d"
 LANG_COLORS = {
     "C": "#555555", "C++": "#f34b7d", "Shell": "#89e051", "Python": "#3572A5",
     "JavaScript": "#f1e05a", "HTML": "#e34c26", "CSS": "#663399", "Kotlin": "#A97BFF",

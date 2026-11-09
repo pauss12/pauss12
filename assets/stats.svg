@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="185" viewBox="0 0 400 185">
 <style>
   text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; }
-  .title { font-size: 17px; font-weight: 700; fill: #00e88f; }
+  .title { font-size: 17px; font-weight: 700; fill: #2dd4bf; }
   .label { font-size: 13.5px; fill: #8b949e; }
   .value { font-size: 13.5px; font-weight: 700; }
   .desc { font-size: 12.5px; fill: #8b949e; }
@@ -9,16 +9,16 @@
 </style>
 <rect x="0.5" y="0.5" width="399" height="184" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text x="25" y="38" class="title">Estadísticas de GitHub</text>
-<circle cx="31" cy="70" r="4" fill="#00e88f"/>
+<circle cx="31" cy="70" r="4" fill="#2dd4bf"/>
 <text x="45" y="75" class="label">Repositorios (16 privados)</text>
 <text x="375" y="75" class="value" text-anchor="end">46</text>
-<circle cx="31" cy="98" r="4" fill="#00e88f"/>
+<circle cx="31" cy="98" r="4" fill="#2dd4bf"/>
 <text x="45" y="103" class="label">Commits</text>
-<text x="375" y="103" class="value" text-anchor="end">2.596</text>
-<circle cx="31" cy="126" r="4" fill="#00e88f"/>
+<text x="375" y="103" class="value" text-anchor="end">2.598</text>
+<circle cx="31" cy="126" r="4" fill="#2dd4bf"/>
 <text x="45" y="131" class="label">Estrellas</text>
 <text x="375" y="131" class="value" text-anchor="end">5</text>
-<circle cx="31" cy="154" r="4" fill="#00e88f"/>
+<circle cx="31" cy="154" r="4" fill="#2dd4bf"/>
 <text x="45" y="159" class="label">Lenguajes</text>
 <text x="375" y="159" class="value" text-anchor="end">13</text>
 </svg>

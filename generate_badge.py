@@ -23,7 +23,7 @@ OUTPUT = os.environ.get("OUTPUT", "42-badge.svg")
 
 # Colores (tema oscuro con acento verde)
 BG, CARD_BORDER = "#0d1117", "#30363d"
-TEXT, MUTED, ACCENT, BAR_BG = "#e6edf3", "#8b949e", "#00e88f", "#21262d"
+TEXT, MUTED, ACCENT, BAR_BG = "#e6edf3", "#8b949e", "#2dd4bf", "#21262d"
 
 
 # ----------------------------------------------------------------------------
@@ -61,7 +61,16 @@ def get_user(login, token):
     return json.loads(body)
 
 
+PHOTO_FILE = os.environ.get("PHOTO_FILE", "assets/foto.jpg")
+
+
 def photo_data_uri(url):
+    # Si tienes una foto en el repo, se usa esa: el CDN de la intra
+    # rechaza (403) las descargas automáticas.
+    if os.path.isfile(PHOTO_FILE):
+        mime = "image/png" if PHOTO_FILE.lower().endswith(".png") else "image/jpeg"
+        with open(PHOTO_FILE, "rb") as f:
+            return "data:%s;base64,%s" % (mime, base64.b64encode(f.read()).decode())
     if not url:
         return ""
     try:
