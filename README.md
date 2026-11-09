@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00e88f&height=200&section=header&text=Paula%20M%C3%A9ndez&fontSize=56&fontColor=e6edf3&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Cybersecurity%20%C2%B7%2042%20Telef%C3%B3nica&descSize=18&descAlignY=58" alt="Paula Méndez" width="100%" />
 
 <a href="https://github.com/pauss12">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=00E88F&center=true&vCenter=true&width=600&lines=Ingeniera+de+Software+especializada+en+Ciberseguridad;Estudiante+en+42+Telef%C3%B3nica+Madrid;C+%C2%B7+C%2B%2B+%C2%B7+Docker+%C2%B7+Redes+%C2%B7+Linux;Siempre+construyendo+algo+nuevo+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=2DD4BF&center=true&vCenter=true&width=600&lines=Ingeniera+de+Software+%C2%B7+Ciberseguridad;Estudiante+en+42+Telef%C3%B3nica+Madrid;C+%C2%B7+C%2B%2B+%C2%B7+Docker+%C2%B7+Redes+%C2%B7+Linux;Siempre+construyendo+algo+nuevo+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <p>
